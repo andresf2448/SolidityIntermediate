@@ -11,6 +11,6 @@ contract Clase {
   Alumno[] public alumnos;
 
   constructor() {
-      alumnos.push(Alumno("juan", 12345));
+      alumnos.push(Alumno({nombre: "juan", documento: 12345}));
   }
 }

@@ -9,5 +9,4 @@ contract TokenFungible is ERC20("TokenFungible", "TF") {
     constructor() {
         _mint(msg.sender, 1000);
     }
-    
 }
